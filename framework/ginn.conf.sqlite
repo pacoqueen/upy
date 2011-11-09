@@ -1,0 +1,4 @@
+tipobd	sqlite 
+dbname 	/home/bogado/Universal Pilates/codificación/BD/sandbox.db
+modelo_presupuesto presupuesto2
+ventanas_sobre fc

@@ -1,0 +1,2 @@
+2010-02-12 17:45:46,853 WARNING ventana.py::__init__ -> No se pudo establecer ancho de borde, icono de ventana o barra de estado. Excepción: No se ha podido abrir el archivo «logo_w.xpm»: No existe el fichero ó directorio.
+2010-02-12 17:45:46,853 WARNING ventana.py::__init__ -> No se pudo establecer ancho de borde, icono de ventana o barra de estado. Excepción: No se ha podido abrir el archivo «logo_w.xpm»: No existe el fichero ó directorio.
