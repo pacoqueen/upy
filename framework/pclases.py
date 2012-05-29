@@ -129,11 +129,12 @@ if "sqlite" in config.get_tipobd():
     sqlhub.processConnection = connectionForURI(connstring, 
                                                 use_table_info = True)
 else:
-    connstring = '%s://%s:%s@%s/%s' % (config.get_tipobd(), 
-                                       config.get_user(), 
-                                       config.get_pass(), 
-                                       config.get_host(), 
-                                       config.get_dbname()) 
+    connstring = '%s://%s:%s@%s/%s port=%s' % (config.get_tipobd(), 
+                                         config.get_user(), 
+                                         config.get_pass(), 
+                                         config.get_host(), 
+                                         config.get_dbname(), 
+                                         config.get_puerto()) 
     sqlhub.processConnection = connectionForURI(connstring)
 
 
