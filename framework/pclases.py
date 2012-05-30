@@ -129,7 +129,8 @@ if "sqlite" in config.get_tipobd():
     sqlhub.processConnection = connectionForURI(connstring, 
                                                 use_table_info = True)
 else:
-    connstring = '%s://%s:%s@%s/%s' % (config.get_tipobd(), 
+    connstring = '%s://%s:%s@%s/%s?autoCommit=False' % (
+                                       config.get_tipobd(), 
                                        config.get_user(), 
                                        config.get_pass(), 
                                        config.get_host(), 
