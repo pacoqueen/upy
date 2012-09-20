@@ -33,3 +33,7 @@ pip-log.txt
 ginn.log
 *.backup
 
+# Eclipse y Aptana
+.settings
+.project
+.pydevproject
